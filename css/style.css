@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    font-family:"Libre Baskerville", serif;
+}
+
+header table, td{
+    width: 95%;
+}
+.td-login{
+    text-align: right;
+}
+.btn-login {
+    padding: 8px 16px;
+    margin-right: 20px;
+    font-size: 18px;
+    background-color:#FFCF47;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+h1{
+    color:#054F77;
+    font-size: 35;
+    text-align: center;
+    margin: 40px 0;
+    
+}
+
+.produtos{
+    width: 70%;
+    margin: auto;
+}
+
+.card-produtos {
+    width: 300px;
+    border: 1px solid slategrey;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #054F77;
+    box-shadow: 0 4px 8px #455559;
+    text-align: center;
+    color: white;
+}
+
+.card-produtos button {
+    padding: 12px 24px;
+    background-color: cadetblue;
+    color:aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid cadetblue;
+    border-radius: 20px;
+}
+
+footer {
+    background-color:cadetblue;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    font-size: 15px;
+}
+
+footer p{
+    margin: 0;
+}
